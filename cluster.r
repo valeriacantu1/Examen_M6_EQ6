@@ -1,6 +1,8 @@
 #Valeria Cantu a01570758
 #Emilio Martinez a01177730
 #Kathia Ruiz a01571094
+#Luis Alfredo Gonzalez A01177765
+#Salvador Rasura A01568771
 
 # Paso 1 - Instalar librerias y cargarlas
 install.packages("cars")
