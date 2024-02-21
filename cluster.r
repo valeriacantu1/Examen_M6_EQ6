@@ -30,3 +30,10 @@ df <- scale(cars)
 
 # Paso 5 - Asignar el grupo al que pertenece cada asignación
 asignacion  <- cbind(cars,cluster = segmentos$cluster)
+
+# paso 6: graficar los clusters
+fviz_cluster(segmentos, data=df)
+
+# paso 7: comparar segmentos
+promedio <- aggregate(asignacion, by=list(asignacion$cluster), FUN=mean)
+promedio
