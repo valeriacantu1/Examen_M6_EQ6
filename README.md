@@ -1,1 +1,5 @@
 # Examen_M6_EQ6
+
+El código proporcionado demuestra una aplicación de agrupamiento K-means en un conjunto de datos que contiene información sobre la velocidad y las distancias de frenado de los automóviles. Al aplicar el agrupamiento K-means con cuatro grupos, el código identifica agrupaciones distintas basadas en estas variables. Después de escalar los datos para uniformidad, cada punto de datos se asigna a uno de los grupos. 
+
+Utilizando la función fviz_cluster, se visualizan los grupos, el Cluster 1 muestra una velocidad promedio de 21 y una distancia promedio de frenado de 90, lo que sugiere que este grupo podría representar vehículos con alta velocidad y una distancia de frenado considerable. Por otro lado, el Cluster 4 tiene la velocidad promedio más baja (9) y la distancia de frenado más corta (13.9), lo que indica que este grupo podría consistir en vehículos que tienden a viajar a velocidades más bajas y requieren menos distancia para frenar. 
